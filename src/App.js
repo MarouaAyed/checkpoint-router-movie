@@ -46,7 +46,7 @@ function App(props) {
 	]);
 
 	return (
-		<div className="App">
+		<div className="Generale">
 			{/* <MovieList movies={movies} /> */}
 
 			<BrowserRouter>

@@ -6,9 +6,9 @@ function MovieDetails({ movies }) {
 	//console.log(match.url.slice(1));
 
 	const movie = movies.filter((el) => el.id == match.url.slice(1));
-	console.log(movie[0]);
+//	console.log(movie[0]);
 	return (
-		<div style={{ margin: "30px" }}>
+		<div className="details">
 			<div>{movie[0].title}</div>
 			<div>{movie[0].description}</div>
 			<div>
